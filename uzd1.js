@@ -22,3 +22,26 @@ console.log('megstamiausiaSalis: ' + megstamiausiaSalis);
 
 // sukurti 4 skaicius kintamuosius
 // apskaiciuoti ju vidurki ir priskirti kintamajam avg
+let n1 = 10;
+let n2 = 20;
+let n3 = 5;
+let n4 = 10;
+
+let sum = n1 + n2 + n3 + n4;
+let avg = sum / 4;
+let avg2 = (n1 + n2 + n3 + n4) / 4;
+console.log('avg === ' + avg);
+console.log('avg2 ===', avg2);
+
+let pavarde = 'Bond';
+// stringu sujungimas su kintamaisiais
+let vardasIrPavarde = vardas + ' ' + pavarde + '!!!';
+console.log('vardasIrPavarde ===', vardasIrPavarde);
+
+vardas = 'Tadas';
+pavarde = 'Blinda';
+vardasIrPavarde = vardas + ' ' + pavarde + '!!!';
+console.log('vardasIrPavarde ===', vardasIrPavarde);
+
+// sujungti i stringa toki sakini is kintamuju.
+// As esu James Bond. Man yra 33 metai. Mano megstamiausia salis yra Bahamas.
