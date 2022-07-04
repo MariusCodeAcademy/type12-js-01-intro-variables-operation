@@ -13,6 +13,12 @@ miestas = 'London';
 megstamiausiaSalis = 'Bahamas';
 
 // atspausdinti reiksmes konsoleje
+// string contcatination stringo sujungimas
+console.log('Vardas: ' + vardas);
+console.log('amzius: ' + amzius);
+console.log('arVairuojuMasina: ' + arVairuojuMasina);
+console.log('miestas: ' + miestas);
+console.log('megstamiausiaSalis: ' + megstamiausiaSalis);
 
 // sukurti 4 skaicius kintamuosius
 // apskaiciuoti ju vidurki ir priskirti kintamajam avg
