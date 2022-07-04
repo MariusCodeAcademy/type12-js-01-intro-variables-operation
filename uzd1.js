@@ -45,3 +45,9 @@ console.log('vardasIrPavarde ===', vardasIrPavarde);
 
 // sujungti i stringa toki sakini is kintamuju.
 // As esu James Bond. Man yra 33 metai. Mano megstamiausia salis yra Bahamas.
+let sak1 = 'As esu ' + vardas + ' ' + pavarde + '. ';
+let sak2 = 'Man yra ' + amzius + ' metai. ';
+let sak3 = 'Mano megstamiausia salis yra ' + megstamiausiaSalis + '.';
+
+let visiSakiniai = sak1 + sak2 + sak3;
+console.log(visiSakiniai);
